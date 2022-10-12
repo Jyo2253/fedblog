@@ -1,26 +1,31 @@
-import React from 'react'
-
+import React from "react";
+import { Link } from "react-router";
 const Sidebar = () => {
   return (
-    <div className='aside'>
-        <div className="menu">
+    <div className="aside">
+      <div className="menu">
         <ul>
           <li>
-            <a href="#home">HOME</a>
+            <Link to="./Intro.js">Web Storage-Introduction</Link>
           </li>
           <li>
-            <a href="#about">ABOUT</a>
+            <a href="#about">Types of Web Storage</a>{" "}
           </li>
+          <ol>
+            <li>
+              <a href="#about">The localStorage Object</a>
+            </li>
+            <li>
+              <a href="#about">The localStorage Object</a>
+            </li>
+          </ol>
           <li>
-            <a href="#work">PORTFOLIO</a>
-          </li>
-          <li>
-            <a href="#clients">CONTACT</a>
+            <a href="#clients">Delete Web Storage</a>
           </li>
         </ul>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Sidebar
+export default Sidebar;
