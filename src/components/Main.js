@@ -2,16 +2,12 @@ import React from "react";
 import Sidebar from "./Sidebar";
 
 const Main = () => {
-    return (
-
+  return (
     <div>
-
-  <div className="article">
-    Main Content
-  </div>
-    <Sidebar />
+      <div className="article"></div>
+      <Sidebar />
     </div>
-    )
+  );
 };
 
 export default Main;

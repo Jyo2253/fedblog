@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="logo">
         <strong>
           <a href="">
-            <img src="images/logo.png" alt="Sam Jarvis logo" />
+            <img src="images/logo.svg" alt="Sam Jarvis logo" />
           </a>
         </strong>
       </div>

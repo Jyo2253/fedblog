@@ -6,16 +6,15 @@ const Sidebar = () => {
         <div className="menu">
         <ul>
           <li>
-            <a href="#home">HOME</a>
+            <a href="#home">Web Storage-Introduction</a>
           </li>
+          <li><a href="#about">Types of Web Storage</a> </li>
+          <ol>
+            <li><a href="#about">The localStorage Object</a></li>
+            <li><a href="#about">The localStorage Object</a></li>
+            </ol>
           <li>
-            <a href="#about">ABOUT</a>
-          </li>
-          <li>
-            <a href="#work">PORTFOLIO</a>
-          </li>
-          <li>
-            <a href="#clients">CONTACT</a>
+            <a href="#clients">Delete Web Storage</a>
           </li>
         </ul>
       </div>
