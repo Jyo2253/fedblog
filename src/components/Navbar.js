@@ -1,28 +1,21 @@
 import React from "react";
-
+import {Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="nav-menu">
-      <div className="logo">
-        <strong>
-          <a href="">
-            <img src="images/logo.svg" alt="Sam Jarvis logo" />
-          </a>
-        </strong>
-      </div>
       <div className="menu">
         <ul>
           <li>
-            <a href="#home">HOME</a>
+            <Link to="/home"> Home</Link>
           </li>
           <li>
-            <a href="#about">ABOUT</a>
+             <Link to="/about"> About</Link>
           </li>
           <li>
-            <a href="#work">PORTFOLIO</a>
+              <Link to="/portfolio">Portfolio</Link>
           </li>
           <li>
-            <a href="#clients">CONTACT</a>
+             <Link to="/contact"> Contact</Link>
           </li>
         </ul>
       </div>

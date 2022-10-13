@@ -10,7 +10,7 @@ const Delete = () => {
         <li><b>localStorage.clear():</b>If you want to delete or clear all settings with key/value pair, then you can call this method.</li>
     </ol>
 <include src="src/htmlFiles/delete1.html"></include>
-<h4>Example Explanation:<h4>
+<h4>Example Explanation:</h4>
 In the above example we have used localStorage.removeItem("name"); Which will delete the value for the key "name".
 You can remove id for a particular key, or you can also remove all data using localStorage.clear() method.
     </div>

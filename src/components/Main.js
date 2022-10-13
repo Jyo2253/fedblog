@@ -1,13 +1,12 @@
 import React from "react";
 import Sidebar from "./Sidebar";
 
-const Main = () => {
+function Main() {
   return (
     <div>
-      <div className="article"></div>
       <Sidebar />
     </div>
   );
-};
+}
 
 export default Main;

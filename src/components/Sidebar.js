@@ -1,26 +1,26 @@
 import React from "react";
-import { Link } from "react-router";
+import {Link } from "react-router-dom";
 const Sidebar = () => {
   return (
     <div className="aside">
       <div className="menu">
         <ul>
           <li>
-            <Link to="./Intro.js">Web Storage-Introduction</Link>
+            <Link to="/Intro"> Web Storage-Introduction</Link>
           </li>
           <li>
-            <a href="#about">Types of Web Storage</a>{" "}
+          <Link to="/Types">Types of Web Storage</Link>
           </li>
           <ol>
             <li>
-              <a href="#about">The localStorage Object</a>
+            <Link to="/Types">The localStorage Object</Link>
             </li>
             <li>
-              <a href="#about">The localStorage Object</a>
+            <Link to="/Types">The localStorage Object</Link>
             </li>
           </ol>
           <li>
-            <a href="#clients">Delete Web Storage</a>
+          <Link to="/Delete">Delete Web Storage</Link>
           </li>
         </ul>
       </div>
